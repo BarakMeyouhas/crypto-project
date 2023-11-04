@@ -1,0 +1,248 @@
+h1,h4{
+    font-family: 'Mukta', sans-serif;
+}
+
+.section-background {
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+form{
+    margin-left: auto;
+    display: flex;
+    justify-content: space-around;
+}
+nav>button{
+    margin-right: 3px;
+}
+
+.btn-primary {
+    background-color: transparent;
+    border-color: #ffffff;
+    color: #007bff;
+}
+
+ul.dropdown-menu li a:hover {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #fff;
+}
+
+.btn-primary:hover,
+.btn-primary:active{
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #fff;
+}
+
+#row>.col-sm-4{
+    padding-right: 0;
+    padding-left: 0;
+    border-radius: none !important;
+}
+
+.card{
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(36, 10, 237, 0.1);
+    margin-bottom: 20px;
+    transition: all 0.3s ease-in-out;
+}
+    
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+    
+.card-title {
+    font-size: 1.2rem;
+    margin-bottom: 0;
+    color: #333;
+    font-weight: bold;
+}
+    
+.currency-symbol {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #555;
+}
+    
+.currency-price {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #2ecc71;
+}
+    
+.currency-market-cap {
+    font-size: 0.8rem;
+    color: #555;
+    margin-bottom: 10px;
+}
+    
+.btn-description {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #2ecc71;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+    padding: 10px 20px;
+}
+
+.btn-description:hover {
+  background-color: #27ae60;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.form-check-label {
+  color: #555;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+
+    
+.card .collapse {
+    margin-top: 10px;
+}
+    
+.card .card-body {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu .dropdown-menu {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    margin-top: -1px;
+    z-index: 9999;
+}
+
+.dropdown-submenu:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu > li > a:hover {
+    background-color: #f2f2f2;
+}
+
+.dropdown-submenu > a::after {
+    display: none;
+}
+
+
+/* Read More button */
+.read-more {
+    margin-top: 10px;
+}
+
+/* Currency section */
+.currency-section {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.currency-section hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-top: 1px solid #ccc;
+}
+
+.currency-section p {
+    margin-bottom: 5px;
+}
+
+.currency-section .currency-price {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.currency-section .currency-market-cap {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
+.modal-body {
+    font-size: 1.1rem;
+}
+
+.modal-title {
+    font-size: 1.3rem;
+}
+
+.modal-dialog {
+    max-width: 800px;
+}
+
+.modal-content {
+    background-color: #fff;
+}
+
+.modal-header {
+    background-color: #f0f0f0;
+    border-bottom: none;
+}
+
+.modal-body p {
+    margin-bottom: 0;
+}
+
+
+.currency-description {
+    margin-top: 1rem;
+    font-size: 1.1rem;
+}
+
+.currency-description hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 0.5rem 0;
+}
+
+.currency-description button {
+    margin-top: 0.5rem;
+}
+
+.collapsible-section .read-more {
+    margin-top: 15px;
+}
+
+.section-title {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.section-title h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.section-title p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 50px;
+}
+
